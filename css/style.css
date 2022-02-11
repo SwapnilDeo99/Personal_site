@@ -1,0 +1,163 @@
+
+body{
+    overflow-x: hidden;
+}
+.head{
+    background-color: #FFEDDB;
+    text-align: center;
+    padding: 70px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/img/favpng_flat-design-landscape-mountain1.png");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.head h1{
+    font-size: 3.5em;
+    font-family: 'Sacramento', cursive;
+}
+.head p{
+    margin-top: 15px;
+}
+.hobbies{
+    background-color: #EDCDBB;
+    padding: 50px;
+
+}
+.hobbies img{
+    width: 200px;
+    border-radius: 100%;
+    float: right;
+}
+.hobbies p{
+    text-align: left;
+    padding-top: 40px;
+    line-height: 2;
+    word-spacing: 2.5px;
+    color: rgb(48, 48, 48);
+    font-family: serif;
+}
+.skills{
+    background-color: #E3B7A0;
+    text-align: center;
+}
+.skills h1{
+    padding: 50px;
+}
+.skill-1{
+    padding: 10px; 
+}
+.skill-1 img{
+    width: 150px;
+    float: right;
+}
+.skill-1 h4{
+    padding-top: 15px;
+    text-align: left;
+}
+.skill-1 p{
+    text-align: left;
+    line-height: 2;
+}
+.skill-2{
+    padding: 50px;
+}
+.skill-2 img{
+    width: 200px;
+    float: left;
+}
+.skill-2 h4{
+    text-align: right;
+    padding-top: 50px;
+}
+.skill-2 p{
+    text-align: right;
+    line-height: 2;
+}
+.skill-3{
+    padding: 50px;
+}
+.skill-3 img{
+    width: 200px;
+    float: right;
+}
+.skill-3 h4{
+    text-align: left;
+    padding-top: 30px;
+}
+.skill-3 p{
+    text-align: left;
+    line-height: 2;
+}
+.footer{
+    background-color: #BF9270;
+    height: 90px;
+}
+.left-footer{
+    float: left;
+    padding: 15px 0 0 15px;
+    text-align: center;
+}
+.left-footer img{
+    width: 30px;
+}
+.right-footer{
+    float: right;
+    padding: 30px 30px 0 20px;
+}
+.investingpng img{
+    display: none;
+    width: 150px;
+}
+@media only screen and (max-width: 768px){
+    .hobbies img{
+        width: 150px;
+        float: none;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+    .hobbies p{
+        text-align: center;
+    }
+    .skill-1 img{
+        width: 100px;
+        float: none;
+    }
+    .skill-1 h4{
+        text-align: center;
+    }
+    .skill-1 p{
+        text-align: center;
+        padding: 0 30px;
+    }
+    .skill-2 img{
+        display: none;
+    }
+    .investingpng img{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    .skill-2 h4{
+        text-align: center;
+    }
+    .skill-2 p{
+        text-align: center;
+        padding: 0 30px;
+    }
+    .skill-3{
+        padding-top: 0px;
+    }
+    .skill-3 img{
+        width: 150px;
+        float: none;
+    }
+    .skill-3 h4{
+        text-align: center;
+    }
+    .skill-3 p{
+        text-align: center;
+        padding: 0 30px;
+    }
+}
