@@ -1,14 +1,11 @@
 
-body{
-    overflow-x: hidden;
-}
 .head{
     background-color: #FFEDDB;
     text-align: center;
     padding: 70px;
     height: 100vh;
     width: 100vw;
-    background-image: url("/img/favpng_flat-design-landscape-mountain1.png");
+    background-image: url("../img/favpng_flat-design-landscape-mountain1.png");
     background-position: center; /* Center the image */
     background-size: cover;
 }
